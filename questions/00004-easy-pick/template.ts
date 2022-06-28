@@ -16,9 +16,9 @@ type n = "type1" | "type2";
 // here m and n are equal
 
 // so (K extends keyof T) means: type K = "kye1" | "key2" | "key3" | ...
-//  the next keyword is "in". "in" operator in ts acts like js "in" operator, so it means if this P value exist in K object return true
+//  the next keyword is "in". "in" operator iterat through K and acts like a loop to generate types
 // and T[P] acts like js when we read a property from an object: obj["type1"]
-// finally it check if the P exist on K object it will use it as a key and also assign its type from K object.  
+// finally it will iterate keys like "key1" and assign the value of them via K["key1"] >>>> key1: K["key1"]
 
 // related urls:
 // "in" operator: https://learntypescript.dev/07/l5-in-type-guard
