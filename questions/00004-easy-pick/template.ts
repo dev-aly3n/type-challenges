@@ -19,3 +19,7 @@ type n = "type1" | "type2";
 //  the next keyword is "in". "in" operator in ts acts like js "in" operator, so it means if this P value exist in K object return true
 // and T[P] acts like js when we read a property from an object: obj["type1"]
 // finally it check if the P exist on K object it will use it as a key and also assign its type from K object.  
+
+// related urls:
+// "in" operator: https://learntypescript.dev/07/l5-in-type-guard
+// keyof operator: https://www.typescriptlang.org/docs/handbook/2/keyof-types.html
