@@ -20,6 +20,7 @@ type n = "type1" | "type2";
 // and T[P] acts like js when we read a property from an object: obj["type1"]
 // finally it will iterate keys like "key1" and assign the value of them via K["key1"] >>>> key1: K["key1"]
 
+
 // related urls:
 // "in" operator: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html  ||  https://learntypescript.dev/07/l5-in-type-guard
 // keyof operator: https://www.typescriptlang.org/docs/handbook/2/keyof-types.html
